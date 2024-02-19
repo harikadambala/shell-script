@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo: "this is my repository.."
+echo : "this is my repository.."
