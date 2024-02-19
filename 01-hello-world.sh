@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo  hdsalkjhslfhfdslkHDSLhlkdsjslkjds
+# this is comment
+
+echo"hello shell script"
