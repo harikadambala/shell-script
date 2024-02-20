@@ -8,4 +8,14 @@ then
     exit 1 # you can give other then 0
 else
     echo "You are root user"
-fi # f1 means reverse of if, indicating condition end    
+fi # f1 means reverse of if, indicating condition end   
+
+yum install mysql -y
+
+if [ $? -ne 0 ] 
+then
+    echo "ERROR:: Installing MySQL is failed"
+    exit 1
+else
+    echo "ERROR:: Installing MySQL is failed"
+fi    
