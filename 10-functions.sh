@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ID=$(ID-u)
+ID=$(ID -u)
 validate (){
-    if[$?-ne o]
-    then
+    if[$? -ne 0]
+    "then"
        echo "error:: installing mysql is failed"
        exit1
     else
