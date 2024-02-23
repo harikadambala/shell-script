@@ -14,7 +14,7 @@ then
 else
     echo "You are root user"
 fi # f1 means reverse of if, indicating condition end
-     
+      
 echo "All arguments passed: $@"
 
 
