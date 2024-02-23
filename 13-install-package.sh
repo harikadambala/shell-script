@@ -44,7 +44,6 @@ do
     else
        echo"$package is already installed ... $Y SKIPPING $N"
     fi
-
 done
 
 
