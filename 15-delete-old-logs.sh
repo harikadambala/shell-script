@@ -13,9 +13,10 @@ then
     echo -e "$R source directory: $SOURCE_DIR does not exists. $N"
 if
 
-FILE-TO-DELETE=$( find . -type f -mtime +14 -name "*.log")
+FILE_TO_DELETE=$( find $SOURCE_DIR -type f -mtime +14 -name "*.log")
 
 while IFS= read -r line
 do
     echo "Deleting file:$line" 
-done <<< $FILES_TO_DELETE
+    rm -rf $line
+done <<< $FILE_TO_DELETE
