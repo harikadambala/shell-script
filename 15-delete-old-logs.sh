@@ -11,7 +11,7 @@ N="\e[0m"
 if [ ! -d $SOURCE_DIR ] # ! denotes opposite
 then
     echo -e "$R source directory: $SOURCE_DIR does not exists. $N"
-if
+fi
 
 FILE_TO_DELETE=$( find $SOURCE_DIR -type f -mtime +14 -name "*.log")
 
