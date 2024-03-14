@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE-DIR=/tmp/shell-script-logs
+SOURCE_DIR=/tmp/shellscript-logs
 
 R="\e[31m"
 G="\e[32m"
@@ -8,9 +8,9 @@ Y="\e[33m"
 N="\e[0m"
 
 
-if [ ! -d $SOURCE-DIR ] # ! denotes opposite
+if [ ! -d $SOURCE_DIR ] # ! denotes opposite
 then
-    echo -e "$R source directory: $SOURCE-DIR does not exists. $N"
+    echo -e "$R source directory: $SOURCE_DIR does not exists. $N"
 if
 
 FILE-TO-DELETE=$( find . -type f -mtime +14 -name "*.log")
