@@ -13,5 +13,3 @@ do
        message="High Disk usage on $partition: $usage"
    fi    
 done <<< $DISK_USAGE
-
-done <<< $DISK_USAGE
